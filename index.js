@@ -5,6 +5,6 @@ const app = express();
 // Port d'écoute de l'application
 const port = 3000;
 // Creation d'une route par défaut
-app.get('/api', (req, res) => res.send('Hello World!'));
+app.get('/api', (req, res) => res.send("Hello World ! L'api fonctionne bien"));
 // Lancement de l'application
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
